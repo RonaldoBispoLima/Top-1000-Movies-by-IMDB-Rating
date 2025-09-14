@@ -1,4 +1,5 @@
-Projeto de Previsão de Nota IMDB
+# Projeto de Previsão de Nota IMDB
+
 Este projeto tem como objetivo prever a nota de filmes no IMDB utilizando um modelo de Machine Learning treinado com dados históricos. O código foi desenvolvido em Python e utiliza bibliotecas como Pandas, Scikit-learn e Matplotlib para análise, processamento e modelagem de dados.
 
 Requisitos
@@ -37,9 +38,10 @@ Crie e ative um ambiente virtual (recomendado):
 Bash
 
 python -m venv venv
-# No Windows:
+### No Windows:
 .\venv\Scripts\activate
-# No macOS/Linux:
+
+### No macOS/Linux:
 source venv/bin/activate
 Instale as dependências:
 
@@ -53,7 +55,7 @@ Para rodar a análise completa, treinar o modelo e realizar previsões, abra o n
 Bash
 
 jupyter notebook
-# Ou
+#### Ou
 jupyter lab
 Navegue até o diretório do projeto, clique no arquivo IMDB_Top_1000.ipynb e execute todas as células sequencialmente.
 
