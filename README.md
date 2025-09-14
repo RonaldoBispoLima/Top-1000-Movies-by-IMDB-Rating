@@ -31,6 +31,7 @@ Clone o repositório:
 Bash
 
 git clone https://github.com/RonaldoBispoLima/Top-1000-Movies-by-IMDB-Rating
+
 cd Top-1000-Movies-by-IMDB-Rating
 
 Crie e ative um ambiente virtual (recomendado):
@@ -40,6 +41,7 @@ Bash
 python -m venv venv
 ### No Windows:
 .\venv\Scripts\activate
+
 
 ### No macOS/Linux:
 source venv/bin/activate
@@ -53,7 +55,6 @@ Execute o Notebook Jupyter:
 Para rodar a análise completa, treinar o modelo e realizar previsões, abra o notebook IMDB_Top_1000.ipynb em seu ambiente Jupyter (Notebook ou Lab).
 
 Bash
-
 jupyter notebook
 #### Ou
 jupyter lab
@@ -102,6 +103,7 @@ new_movie_data = pd.DataFrame([{
     'No_of_Votes': 100000, # Valor numérico
     'Gross': '10,000,000' # String com vírgulas
 }])
+
 Faça a previsão:
 
 Python
